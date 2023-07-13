@@ -4,6 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "dev": "npx nodemon --exec babel-node src/server.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
@@ -11,7 +12,9 @@
   "license": "ISC",
   "dependencies": {
     "@babel/runtime": "^7.22.6",
-    "@hapi/hapi": "^21.3.2"
+    "@hapi/boom": "^10.0.1",
+    "@hapi/hapi": "^21.3.2",
+    "nodemon": "^3.0.1"
   },
   "devDependencies": {
     "@babel/core": "^7.22.8",
