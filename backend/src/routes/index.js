@@ -3,6 +3,7 @@ import { createNewListingRoute } from "./createNewListings";
 import { getAllListRoute } from "./getAllListing";
 import { getListingRoute } from "./getListing";
 import { getUserListingsRoute } from "./getUserListings";
+import { updateListingRoute } from "./updateListings";
 
 export default [
   getAllListRoute,
@@ -10,4 +11,5 @@ export default [
   addViewToListingRoute,
   getUserListingsRoute,
   createNewListingRoute,
+  updateListingRoute,
 ];
